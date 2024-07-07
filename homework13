@@ -11,7 +11,7 @@ for i in numbers:
                 count += 0
         else:
             count += 0
-    if count <= 2:
+    if count == 2:
         prime.append(i)
     else:
         not_prime.append(i)
